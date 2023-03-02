@@ -1,0 +1,65 @@
+/*--- Sección del Header/Title/Hero ---*/
+
+.title {
+    width: 100%;
+}
+
+.title__div,
+.about__container {
+    width: 90%;
+    content: normal;
+    padding: 1%;
+}
+
+.title__profile {
+    align-items: center;
+    width: 30%;
+    border-radius: 50%;
+    shape-outside: circle(50%);
+    box-shadow: 4px 4px #4db6f3;
+    float: inherit;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.title__bio,
+.academic__title,
+.experience__section__title,
+.formcontato__title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+.title__network__item {
+    display: inline-flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+}
+
+ul .title__network__item img {
+    width: 15px;
+}
+
+.title__container,
+.about__container__parrafo {
+    width: 90%;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 20px;
+    padding: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
